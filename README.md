@@ -48,7 +48,7 @@ Update settings.py:
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "seo_db",
+        "NAME": "seocrawler",
         "USER": "postgres",
         "PASSWORD": "yourpassword",
         "HOST": "localhost",
