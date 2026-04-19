@@ -36,6 +36,26 @@ pip install -r requirements.txt
 # Required for JS-rendered pages.
 playwright install
 
+# Configure Database
+Default (SQLite)
+
+No setup required.
+
+PostgreSQL (optional)
+
+Update settings.py:
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "seo_db",
+        "USER": "postgres",
+        "PASSWORD": "yourpassword",
+        "HOST": "localhost",
+        "PORT": "5432",
+    }
+}
+
 # Run Migrations
 python manage.py makemigrations
 python manage.py migrate
