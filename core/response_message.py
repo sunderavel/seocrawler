@@ -1,0 +1,4 @@
+INVALID_INPUT = 'Invalid input data'
+SC_400 = "sc_400"
+BAD_REQUEST = 400
+SUCCESS_REQUEST = 200
